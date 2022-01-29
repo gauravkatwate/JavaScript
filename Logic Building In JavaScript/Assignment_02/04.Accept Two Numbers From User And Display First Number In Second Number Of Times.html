@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      Accept Two Numbers From USer And Display First Number IS Second Number Of
+      Times
+    </title>
+  </head>
+  <body>
+    <script>
+      let No1 = parseInt(prompt("Enter First Number =>"));
+      let No2 = parseInt(prompt("Enter Second Number =>"));
+
+      Display(No1, No2);
+
+      function Display(no1, no2) {
+        while (no2 != 0) {
+          document.write("<h1>" + no1 + "</h1>");
+          no2--;
+        }
+      }
+    </script>
+  </body>
+</html>
